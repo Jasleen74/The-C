@@ -12,10 +12,13 @@ int main() {
     scanf ("%d", &h );
 
 
-    float area ; 
-    area = 2* PI *r *h ;
-    printf ("the value for the area of the cylinder is %f " ,area);
+    float  l_area ; 
+    l_area = 2* PI *r *h ;
+    printf ("the value for the lateral surface area of the cylinder is %f " ,l_area);
 
-  
+    float f_area ;
+    f_area = PI * r*r* h ;
+    print 
+
  return 0;
 }

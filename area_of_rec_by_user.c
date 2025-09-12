@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<math.h>
+#include<math.h>    /* writting this so that to include things like pi or doing the mathematical operations*/
 
 
 int main()
@@ -14,7 +14,7 @@ int main()
     
 
     c = a * b ;
-    printf("the value of area of the recatngle with ur given values of a and b is %d \n ", c);
+    printf("the value of area of the recatngle with ur given values of a and b is %d \n \n ", c);
 
 
 
@@ -23,7 +23,7 @@ int main()
 /*NOW THE AREA OF THE CIRCLE*/
 
 
-    # define PI 3.142
+    # define PI 3.142 /*have to declare the special things too */
    int r ;
    float area  ;
    printf("the value of the radius :  ");
